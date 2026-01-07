@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #020617;
+    color: #e5e7eb;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* Cursor */
+.cursor {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #38bdf8;
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+    z-index: 999;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 80px 20px;
+    background: radial-gradient(circle, #020617, #000);
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #38bdf8;
+}
+
+.typing {
+    color: #94a3b8;
+    margin-top: 10px;
+    height: 24px;
+}
+
+.profile-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 3px solid #38bdf8;
+    margin: 20px auto;
+    display: block;
+}
+
+.btn {
+    background: #38bdf8;
+    color: #020617;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.small {
+    font-size: 14px;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 15px;
+    border-bottom: 1px solid #1e293b;
+}
+
+nav a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+/* Sections */
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+h2 {
+    color: #38bdf8;
+    border-left: 4px solid #38bdf8;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+/* Skills */
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.skill {
+    border: 1px solid #1e293b;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Projects */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    border: 1px solid #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Contact */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    background: #020617;
+    border: 1px solid #1e293b;
+    color: white;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #1e293b;
+    color: #64748b;
+}
