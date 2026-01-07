@@ -48,6 +48,7 @@ header h1 {
     display: block;
 }
 
+/* Buttons */
 .btn {
     background: #38bdf8;
     color: #020617;
@@ -118,6 +119,12 @@ h2 {
     border-radius: 10px;
 }
 
+.project-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
 /* Contact */
 form {
     display: flex;
@@ -129,7 +136,7 @@ input, textarea {
     padding: 10px;
     background: #020617;
     border: 1px solid #1e293b;
-    color: white;
+    color: #fff;
 }
 
 /* Footer */
